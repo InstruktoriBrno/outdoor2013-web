@@ -1,0 +1,105 @@
+body {
+	background-color: black;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;8
+	font-size: 8px;
+	padding: 40px;
+	margin: 0px;
+}
+
+
+.head {
+	background: url('../img/banner.jpg') no-repeat;
+	width: 900px;
+	height: 300px;
+}
+
+.side {
+	width: 184px;
+	height: 1200px;
+	background-color: #000;/*#6d6d6d;*/
+}
+
+.side a:link 	   {text-decoration: none; color: #fffecd;}
+.side a:visited    {text-decoration: none; color: #fffecd;}
+.side a:hover      {font-weight: bold; color: #fffecd;}
+
+.menu {
+	width: 184px;
+  height: 200px;
+  top: 350px;
+  position: absolute;
+	padding: 30px 0px 0px 30px;
+}
+
+.main {
+	width: 686px; 
+  height: 2400px;  
+  left: 224px;
+  top: 340px;
+  position: absolute;
+	background-color: white;
+	padding: 10px 10px 10px 20px;
+}
+
+
+
+
+
+.obr1 {
+  float: left;
+  position: absolute;
+  left: 380px;
+  top: 70px;
+}
+
+.obr2 {
+  float: right;
+  position: absolute;
+  left: 280px;
+  top: 250px;
+}
+
+.obr3 {
+  float: none;
+  position: absolute;
+  left: 380px;
+  top: 990px;
+}
+
+.obr4 {
+  float: none;
+  position: absolute;
+  left: 110px;
+  top: 520px;
+}
+
+.obr5 {
+  float: none;
+  position: absolute;
+  left: 260px;
+  top: 200px;
+}
+
+.obr6 {
+  float: left;
+  position: relative;
+  left: -6px;
+  top: 0px;
+}
+
+.obr7 {
+  float: left;
+  position: relative;
+  left: -6px;
+  top: 0px;
+}
+
+
+
+.chyba {
+	color: rgb(220,20,60);
+}
+
+.ok {
+  color: green;
+}
